@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/HubUss.uss?fileID=7433441132597879392&amp;guid=5b8c2245ad7946408101cce65a6ce06b&amp;type=3#HubUss" />
+    <ui:VisualElement name="Point">
+        <ui:VisualElement name="Container">
+            <ui:Label tabindex="-1" text="Enter" display-tooltip-when-elided="true" name="Text" style="-unity-font-definition: url(&apos;project://database/Assets/Kenney/UI/RifficFree-Bold%20SDF.asset?fileID=11400000&amp;guid=7f470d423dcc31245868c19657bba743&amp;type=2#RifficFree-Bold SDF&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

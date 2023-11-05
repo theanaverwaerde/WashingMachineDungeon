@@ -1,0 +1,26 @@
+#Point {
+    height: 0;
+    width: 0;
+    position: absolute;
+    align-items: center;
+}
+
+#Container {
+    top: -168px;
+    height: 68px;
+    width: 110px;
+    flex-shrink: 0;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Text {
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: row;
+    width: 64px;
+    justify-content: space-between;
+    -unity-text-align: upper-center;
+    font-size: 72px;
+    color: rgb(255, 255, 255);
+}

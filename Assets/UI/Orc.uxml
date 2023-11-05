@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Orc">
+        <ui:VisualElement name="OrcContainer">
+            <ui:VisualElement name="Life">
+                <ui:VisualElement name="1" class="orc-heart heart-green" />
+                <ui:VisualElement name="2" class="orc-heart heart-green" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Sock" class="sock-rotate sock orc-sock" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

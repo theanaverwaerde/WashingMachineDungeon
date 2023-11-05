@@ -1,0 +1,38 @@
+.button {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Kenney/UI/buttonLong_grey.png?fileID=21300000&guid=1cc68161196670b4d9161614e1fabdbf&type=3#buttonLong_grey');
+    -unity-font-definition: url('project://database/Assets/Kenney/UI/RifficFree-Bold%20SDF.asset?fileID=11400000&guid=7f470d423dcc31245868c19657bba743&type=2#RifficFree-Bold SDF');
+    font-size: 36px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    color: rgb(123, 117, 123);
+    width: 399px;
+    height: 90px;
+}
+
+.button * {
+    display: none;
+}
+
+.button:hover {
+    background-image: url('project://database/Assets/Kenney/UI/buttonLong_beige.png?fileID=21300000&guid=7b136a95eaddfc147a66e70f7c5ce60a&type=3#buttonLong_beige');
+    color: rgb(24, 24, 24);
+}
+
+.button:hover * {
+    display: flex;
+}
+
+.arrow {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    height: 92px;
+    width: 92px;
+    background-image: url('project://database/Assets/Kenney/UI/cursorSword_silver.png?fileID=21300000&guid=1a381c3e0783e1848836fd2a8f29a60c&type=3#cursorSword_silver');
+    top: 36px;
+    left: 329px;
+    display: none;
+}

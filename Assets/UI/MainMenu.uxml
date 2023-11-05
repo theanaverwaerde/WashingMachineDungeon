@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenuUss.uss?fileID=7433441132597879392&amp;guid=488f1e32d4679c54b9dd4f4a96e53209&amp;type=3#MainMenuUss" />
+    <ui:VisualElement name="Main" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Kenney/UI/StartScreen.png?fileID=2800000&amp;guid=7f3672185b6e797419184dd61ed60fd0&amp;type=3#StartScreen&apos;); position: absolute; left: 0; top: 0; right: 0; bottom: 0;">
+        <ui:VisualElement name="Buttons" style="background-color: rgba(0, 0, 0, 0); width: 411px; height: 237px; right: 192px; position: absolute; bottom: 195px; justify-content: space-between;">
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="Play" class="button" style="overflow: visible;">
+                <ui:VisualElement class="arrow" />
+            </ui:Button>
+            <ui:Button text="Credits" display-tooltip-when-elided="true" name="CreditsBtn" class="button" style="overflow: visible;">
+                <ui:VisualElement class="arrow" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Credits" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); display: none; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-image: url(&apos;project://database/Assets/Kenney/UI/Credits.png?fileID=2800000&amp;guid=14b781f986bfc264d87658a7de457e86&amp;type=3#Credits&apos;);">
+        <ui:Button text="&lt; Back to menu" display-tooltip-when-elided="true" name="Back" class="button" style="overflow: visible; left: 52px; bottom: 52px; position: absolute;">
+            <ui:VisualElement class="arrow" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

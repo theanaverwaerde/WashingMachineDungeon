@@ -1,0 +1,93 @@
+.player-heart {
+    width: 64px;
+    height: 64px;
+}
+
+.orc-heart {
+    width: 30px;
+    height: 30px;
+}
+
+.heart-grey {
+    background-image: url('project://database/Assets/Kenney/UI/tileBlack_12.png?fileID=2800000&guid=f4ce2eb1aa0546149b3726f1692667d5&type=3#tileBlack_12');
+}
+
+.heart-red {
+    background-image: url('project://database/Assets/Kenney/UI/tileRed_60.png?fileID=2800000&guid=c07e1bb71aea3e44c907f77041e750d2&type=3#tileRed_60');
+}
+
+.heart-green {
+    background-image: url('project://database/Assets/Kenney/UI/tileGreen_60.png?fileID=2800000&guid=43c3ee858da3ad34da98e7bee7299632&type=3#tileGreen_60');
+}
+
+.sock-rotate {
+    rotate: 28deg;
+}
+
+.player-sock {
+    width: 26px;
+    height: 64px;
+}
+
+.orc-sock {
+    width: 12px;
+    height: 29px;
+    flex-shrink: 0;
+}
+
+.sock {
+    background-image: url('project://database/Assets/Kenney/SOCK/Sock.png?fileID=2800000&guid=d5601b13e54bbbe41bb819e4a4d48896&type=3#Sock');
+}
+
+.sock-grey {
+    background-image: url('project://database/Assets/Kenney/SOCK/Grey_Sock.png?fileID=2800000&guid=ddb068c2eb8766a439190c32e40f8ff2&type=3#Grey_Sock');
+}
+
+#Hearts {
+    height: 64px;
+    width: 241px;
+    margin-left: 42px;
+    margin-right: 42px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+}
+
+#Socks {
+    height: 64px;
+    width: 252px;
+    margin-left: 42px;
+    margin-right: 42px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+}
+
+#Orc {
+    height: 0;
+    width: 0;
+    position: absolute;
+    align-items: center;
+}
+
+#OrcContainer {
+    top: -168px;
+    height: 68px;
+    width: 110px;
+    flex-shrink: 0;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Life {
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: row;
+    width: 64px;
+    justify-content: space-between;
+}
